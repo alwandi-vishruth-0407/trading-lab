@@ -10,7 +10,7 @@ The application currently contains one FastAPI endpoint: `GET /health`.
 {"status": "ok", "service": "Trading Lab API"}
 ```
 
-Trading, accounts, market data, portfolios, and the frontend are planned features. They are not implemented yet. See [the product specification](docs/PRODUCT_SPEC.md) for the intended scope.
+Trading, accounts, market data, portfolios, and the frontend are planned features. They are not implemented yet.
 
 ## Run locally on Windows
 
@@ -30,20 +30,5 @@ Visit http://127.0.0.1:8000/health to see the response, or http://127.0.0.1:8000
 | Location | Purpose |
 | --- | --- |
 | `backend/` | Application code and Python dependency snapshot |
-| `docs/` | Product specification and learning notes |
-| `docs/pdf/` | PDF generation tools and teaching example checks |
-| `docs/video/` | Narrated demo generation and verification tools |
-| `output/pdf/` | Printable learning references |
-| `output/video/` | Narrated demo, transcript, captions, and chapters |
 
-## Learning references
-
-* [First API lesson](docs/LESSON_01_FIRST_API.md)
-* [Detailed FastAPI explanation](docs/LESSON_01_FASTAPI_EXPLAINED.md)
-* [Printable FastAPI guide](output/pdf/Trading_Lab_Lesson_01_FastAPI_Explained.pdf)
-* [Narrated demo](output/video/Trading_Lab_FastAPI_Demo.mp4)
-* [Demo transcript](output/video/Trading_Lab_FastAPI_Demo_Transcript.md)
-
-The media generation scripts are authoring tools with additional local dependencies, including Windows fonts, speech synthesis, and FFmpeg for the video. They are not required to run the API. Some learning references retain the original author's local paths; substitute your own checkout location when following them.
-
-Virtual environments, downloaded tools, temporary output, and unrelated local work are excluded from Git. The next planned application increment introduces a path parameter, followed by a fictional instrument lookup.
+Virtual environments, local configuration, personal learning materials, and temporary output are excluded from Git.

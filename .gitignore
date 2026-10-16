@@ -18,6 +18,11 @@ __pycache__/
 /tmp/
 /output/dip-audit/
 
+# Personal project decisions and learning materials stay local
+/docs/
+/output/pdf/
+/output/video/
+
 # Editor and operating system files
 .idea/
 .vscode/
